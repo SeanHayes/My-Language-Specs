@@ -5,7 +5,7 @@ These language specifications are used by gtksourceview-2.0 for syntax highlight
 
 The default location for the language definition files is /usr/share/gtksourceview-2.0/language-specs/. To avoid the risk of overwriting them during upgrades (or to avoid overwriting the originals in case you want to switch back), you might want to place them in ~/.local/share/gtksourceview-2.0/language-specs/.
 
-If you're cloning this Git repo and you want to keep it in a more handy location, you can also create a file system link using "ln -s path/to/my-language-specs/ ~/.local/share/gtksourceview-2.0/language-specs".
+If you're cloning this Git repo and you want to keep it in a more handy location, you can also create a file system link using "ln -s path/to/My-Language-Specs/ ~/.local/share/gtksourceview-2.0/language-specs".
 
 = Changes =
 
