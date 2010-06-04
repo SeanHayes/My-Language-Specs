@@ -1,6 +1,10 @@
 = My Language Specs =
 These language specifications are used by gtksourceview-2.0 for syntax highlighting, and gtksourceview-2.0 is used by gedit.
 
+= Info =
+
+http://library.gnome.org/devel/gtksourceview/stable/lang-tutorial.html
+
 = Installation ==
 
 The default location for the language definition files is /usr/share/gtksourceview-2.0/language-specs/. To avoid the risk of overwriting them during upgrades (or to avoid overwriting the originals in case you want to switch back), you might want to place them in ~/.local/share/gtksourceview-2.0/language-specs/.
@@ -14,6 +18,11 @@ I modified some of the original *.lang files to better suit my needs. Here is a 
 == css.lang ==
 
 Nothing yet.
+
+== def.lang ==
+
+Added new code tags NOTE and FYI.
+Added chrome:// and file:// URI protocols.
 
 == javascript.lang ==
 

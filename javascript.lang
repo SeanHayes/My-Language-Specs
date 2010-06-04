@@ -41,12 +41,13 @@
         <style id="undefined-value" _name="Undefined Value" map-to="def:special-constant"/>
         <style id="boolean" _name="Boolean value" map-to="def:boolean"/>
         <style id="keyword" _name="Keyword" map-to="def:keyword"/>
-        <style id="object" _name="Object"/> <!--map-to="def:others"-->
+        <style id="object" _name="Object" map-to="def:others"/>
         <style id="type" _name="Data Type" map-to="def:type"/>
         <style id="function" _name="Function" map-to="def:function"/>
         <style id="properties" _name="Properties" map-to="def:statement"/>
         <style id="constructors" _name="Constructors" map-to="def:type"/>
         <style id="future-words" _name="Future Reserved Keywords" map-to="def:error"/>
+        <style id="firebug-console" _name="Firebug Console Functions" map-to="def:error"/>
     </styles>
 
     <definitions>
@@ -266,22 +267,6 @@
                     <keyword>getYear</keyword>
                     <keyword>setYear</keyword>
                     <keyword>toGMTString</keyword>
-                    <!-- Firebug console keywords -->
-                    <keyword>console.debug</keyword>
-                    <keyword>console.dir</keyword>
-                    <keyword>console.dirxml</keyword>
-                    <keyword>console.error</keyword>
-                    <keyword>console.group</keyword>
-                    <keyword>console.groupEnd</keyword>
-                    <keyword>console.info</keyword>
-                    <keyword>console.log</keyword>
-                    <keyword>console.profile</keyword>
-                    <keyword>console.profileEnd</keyword>
-                    <keyword>console.time</keyword>
-                    <keyword>console.timeEnd</keyword>
-                    <keyword>console.trace</keyword>
-                    <keyword>console.warn</keyword>
-                    <keyword>console</keyword>
                 </context>
 
                 <context id="properties" style-ref="properties">
@@ -343,6 +328,25 @@
                     <keyword>throws</keyword>
                     <keyword>transient</keyword>
                     <keyword>volatile</keyword>
+                </context>
+
+                <context id="firebug-console" style-ref="firebug-console">
+                    <!-- Firebug console keywords -->
+                    <keyword>console.debug</keyword>
+                    <keyword>console.dir</keyword>
+                    <keyword>console.dirxml</keyword>
+                    <keyword>console.error</keyword>
+                    <keyword>console.group</keyword>
+                    <keyword>console.groupEnd</keyword>
+                    <keyword>console.info</keyword>
+                    <keyword>console.log</keyword>
+                    <keyword>console.profile</keyword>
+                    <keyword>console.profileEnd</keyword>
+                    <keyword>console.time</keyword>
+                    <keyword>console.timeEnd</keyword>
+                    <keyword>console.trace</keyword>
+                    <keyword>console.warn</keyword>
+                    <keyword>console</keyword>
                 </context>
 
             </include>
