@@ -47,7 +47,7 @@
         <style id="properties" _name="Properties" map-to="def:statement"/>
         <style id="constructors" _name="Constructors" map-to="def:type"/>
         <style id="future-words" _name="Future Reserved Keywords" map-to="def:error"/>
-        <style id="firebug-console" _name="Firebug Console Functions" map-to="def:error"/>
+        <style id="firebug-console" _name="Firebug Console Functions" map-to="def:note"/>
     </styles>
 
     <definitions>
@@ -332,7 +332,7 @@
 
                 <context id="firebug-console" style-ref="firebug-console">
                     <!-- Firebug console keywords -->
-                    <keyword>console.debug</keyword>
+                    <!-- <keyword>console.debug</keyword>
                     <keyword>console.dir</keyword>
                     <keyword>console.dirxml</keyword>
                     <keyword>console.error</keyword>
@@ -345,7 +345,7 @@
                     <keyword>console.time</keyword>
                     <keyword>console.timeEnd</keyword>
                     <keyword>console.trace</keyword>
-                    <keyword>console.warn</keyword>
+                    <keyword>console.warn</keyword> -->
                     <keyword>console</keyword>
                 </context>
 
