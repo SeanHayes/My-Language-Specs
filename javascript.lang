@@ -48,6 +48,7 @@
         <style id="constructors" _name="Constructors" map-to="def:type"/>
         <style id="future-words" _name="Future Reserved Keywords" map-to="def:error"/>
         <style id="firebug-console" _name="Firebug Console Functions" map-to="def:note"/>
+        <style id="alerts" _name="Javascript alerts, etc." map-to="def:note"/>
     </styles>
 
     <definitions>
@@ -349,6 +350,11 @@
                     <keyword>console</keyword>
                 </context>
 
+                <context id="alerts" style-ref="alerts">
+                    <keyword>alert</keyword>
+                    <keyword>confirm</keyword>
+                    <keyword>prompt</keyword>
+                </context>
             </include>
         </context>
     </definitions>
