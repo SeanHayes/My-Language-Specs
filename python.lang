@@ -46,6 +46,7 @@
     <style id="builtin-constant"  _name="Builtin Constant"      map-to="def:special-constant"/>
     <style id="builtin-object"    _name="Builtin Object"        map-to="def:type"/>
     <style id="builtin-function"  _name="Builtin Function"      map-to="def:builtin"/>
+    <style id="logging"           _name="Logging functions"      map-to="def:note"/>
   </styles>
 
   <definitions>
@@ -384,6 +385,18 @@
           <keyword>xrange</keyword>
           <keyword>zip</keyword>
         </context>
+
+        <context id="logging" style-ref="logging">
+            <!-- Firebug console keywords -->
+            <!-- <keyword>logging.debug</keyword>
+            <keyword>logging.critical</keyword>
+            <keyword>logging.error</keyword>
+            <keyword>logging.info</keyword>
+            <keyword>logging.log</keyword>
+            <keyword>logging.warning</keyword> -->
+            <keyword>logging</keyword>
+        </context>
+
       </include>
     </context>
   </definitions>
