@@ -387,14 +387,8 @@
         </context>
 
         <context id="logging" style-ref="logging">
-            <!-- Firebug console keywords -->
-            <!-- <keyword>logging.debug</keyword>
-            <keyword>logging.critical</keyword>
-            <keyword>logging.error</keyword>
-            <keyword>logging.info</keyword>
-            <keyword>logging.log</keyword>
-            <keyword>logging.warning</keyword> -->
             <keyword>logging</keyword>
+            <keyword>logger</keyword>
         </context>
 
       </include>

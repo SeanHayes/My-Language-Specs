@@ -35,7 +35,7 @@ Turned off spellcheck for attribute values.
 
 == python.lang ==
 
-Nothing yet.
+Added highlighting for "logging" (the logging module) and "logger" (a common variable name for logging instances).
 
 == xml.lang ==
 
