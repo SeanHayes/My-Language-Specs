@@ -205,7 +205,7 @@
                     <match>\%{email-address}</match>
                 </context>
                 <context id="comment-note" extend-parent="false" style-ref="note" class="no-spell-check">
-                    <match>\b(FIXME|TODO|XXX|NOTE|FYI)\b</match>
+                    <match>\b(FIXME|TODO|XXX|NOTE|FYI|FINISHME)\b</match>
                 </context>
             </include>
         </context>
