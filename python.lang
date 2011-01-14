@@ -46,7 +46,8 @@
     <style id="builtin-constant"  _name="Builtin Constant"      map-to="def:special-constant"/>
     <style id="builtin-object"    _name="Builtin Object"        map-to="def:type"/>
     <style id="builtin-function"  _name="Builtin Function"      map-to="def:builtin"/>
-    <style id="logging"           _name="Logging functions"      map-to="def:note"/>
+    <style id="logging"           _name="Logging functions"     map-to="def:note"/>
+    <style id="error"             _name="Error"                 map-to="def:error"/>
   </styles>
 
   <definitions>
@@ -390,6 +391,10 @@
         <context id="logging" style-ref="logging">
             <keyword>logging</keyword>
             <keyword>logger</keyword>
+        </context>
+
+        <context id="pdb" style-ref="error">
+            <keyword>pdb</keyword>
         </context>
 
       </include>
