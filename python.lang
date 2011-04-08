@@ -48,6 +48,7 @@
     <style id="builtin-function"  _name="Builtin Function"      map-to="def:builtin"/>
     <style id="logging"           _name="Logging functions"     map-to="def:note"/>
     <style id="error"             _name="Error"                 map-to="def:error"/>
+    <style id="user-defined-exception"    _name="User Defined Exceptions"        map-to="def:type"/>
   </styles>
 
   <definitions>
@@ -395,6 +396,10 @@
 
         <context id="pdb" style-ref="error">
             <keyword>pdb</keyword>
+        </context>
+
+        <context id="user-defined-exceptions" style-ref="user-defined-exception">
+          <match>(?&lt;![\w\.])(\w*(Exception|Error))</match>
         </context>
 
       </include>
