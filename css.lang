@@ -486,6 +486,11 @@
       <match>[*#.&gt;+]</match>
     </context>
 
+    <!-- needs some tweaking so it won't pick up on stuff in comments and selectors-->
+    <context id="no-semicolon" style-ref="error">
+      <match>.+:.+[^;]$</match>
+    </context>
+
     <context id="css" class="no-spell-check">
       <include>
         <context ref="def:string"/>
@@ -509,6 +514,7 @@
         <context ref="attribute-value-delimiters"/>
         <context ref="operators"/>
         <context ref="selector-grammar"/>
+        <!--<context ref="no-semicolon"/>-->
       </include>
     </context>
 
