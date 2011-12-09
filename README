@@ -11,6 +11,8 @@ The default location for the language definition files is /usr/share/gtksourcevi
 
 If you're cloning this Git repo and you want to keep it in a more handy location, you can also create a file system link using "ln -s path/to/My-Language-Specs/ ~/.local/share/gtksourceview-2.0/language-specs".
 
+In Ubuntu 11.10 and up, your paths will need to be gtksourceview-3.0 instead of gtksourceview-2.0.
+
 = Changes =
 
 I modified some of the original *.lang files to better suit my needs. Here is a list of some of my modifications:
@@ -36,6 +38,7 @@ Turned off spellcheck for attribute values.
 == python.lang ==
 
 Added highlighting for "logging" (the logging module) and "logger" (a common variable name for logging instances).
+pdb and ipdb are highlighted as errors, making it easier to find your debug statements.
 
 == xml.lang ==
 
